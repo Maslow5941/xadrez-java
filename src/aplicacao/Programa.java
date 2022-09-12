@@ -1,14 +1,14 @@
 package aplicacao;
 
-import tabuleiro.Possicao;
+import tabuleiro.Borda;
+
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
 		
-		Possicao possicao = new Possicao(3, 6);
-		System.out.println(possicao);
+		Borda borda = new Borda(8, 8);
 	}
 
 }
