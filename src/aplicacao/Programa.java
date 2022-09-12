@@ -1,11 +1,14 @@
 package aplicacao;
 
+import tabuleiro.Possicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("teste");
-
+		
+		
+		Possicao possicao = new Possicao(3, 6);
+		System.out.println(possicao);
 	}
 
 }
